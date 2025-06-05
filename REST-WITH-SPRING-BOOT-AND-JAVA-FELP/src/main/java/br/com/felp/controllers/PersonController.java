@@ -15,7 +15,7 @@ public class PersonController {
     //private PersonServices service = new PersonServices();
 
     @Autowired
-    private PersonServices service;
+    private PersonServices service; 
 
     @RequestMapping(value = "/{id}",
         method = RequestMethod.GET,

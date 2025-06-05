@@ -1,1 +1,15 @@
-spring.application.name=REST-WITH-SPRING-BOOT-AND-JAVA-FELP
+spring:
+  application:
+    name: spring.application.name=REST-WITH-SPRING-BOOT-AND-JAVA-FELP
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rest_with_spring_boot_felp?useTimezone=true&serverTimezone=UTC
+    username: root
+    password: Felp357Mm@
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+      show_sql: false
